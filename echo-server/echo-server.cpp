@@ -12,6 +12,7 @@
 #include <thread>
 #include <vector>
 #include <mutex>
+#include <algorithm>
 
 #ifdef WIN32
 void myerror(const char* msg) { fprintf(stderr, "%s %lu\n", msg, GetLastError()); }
